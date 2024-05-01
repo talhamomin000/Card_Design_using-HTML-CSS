@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    gap: 20px;
+    border: 2px solid black;
+    height: 450px;
+    padding: 30px;
+    width: 800px;
+}
+
+.card {
+    padding: 15px;
+    border: 2px solid black;
+    height: 370px;
+    width: 250px;
+    /* background-color: #E1306C; */
+    color: black;
+    border-radius: 10px;
+
+
+}
+
+img {
+    height: 50px;
+    width: 60px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    border-radius: 6px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    
+}
+button:hover{
+    background-color: rgb(124, 116, 116);
+}
+
+.twitter{
+    background-color: rgb(123, 123, 251);
+}
+
+.youtube{
+    background-color: rgb(248, 39, 39);
+}
+
+.insta{
+    background-color: rgb(245, 71, 166);
+}
